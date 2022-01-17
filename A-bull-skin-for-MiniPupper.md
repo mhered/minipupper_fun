@@ -23,8 +23,6 @@ It's a 679Mb download - about 20'.
 Mouse navigation is not immediately obvious. I configured the Navigation style to Inventor (refer to https://wiki.freecad.org/)
 ![Screenshot from 2022-01-17 01-04-39](./assets/images/mouse-freeCAD.png)
 
-**Note: I can visualize but not download [the Fusion360 files of the Mini Pupper](https://a360.co/3fS15a1). Why? For later...**
-
 * Downloaded the STL of a bull: https://www.ameede.net/bull-low-poly-b003554-file-stl-free-download-3d-model-for-cnc-and-3d/, but it is asymmetrical (head, torso turned)
 ![Screenshot from 2022-01-17 01-57-54](./assets/images/STL-bull.png)
 
@@ -42,11 +40,17 @@ Mouse navigation is not immediately obvious. I configured the Navigation style t
 | https://www.turbosquid.com/3d-models/mechanical-bull-design-3d-model/445960 | <img src="./assets/images/taurus.jpg" width="240" /> |
 | https://www.pinterest.com/pin/398427898276324254/ | <img src="./assets/images/pinterest-bull.png" alt =" " width="240" /> |
 
+## Importing Mini Pupper CAD files to FreeCAD
+
+I was frustrated that I could visualize but not download [these Fusion360 files of the Mini Pupper](https://a360.co/3fS15a1), from the link provided in the official project page. But then I found [this other link with the updated model](https://myhub.autodesk360.com/ue2d9cf55/g/shares/SH9285eQTcf875d3c5392da49ebed9324f4d), and even better, a download button!
+
+The process is simple: click the **Download** button in the top right corner, select the format (STEP is recommended in the [FreeCAD wiki](https://wiki.freecadweb.org/Migrating_to_FreeCAD_from_Fusion360)), and provide an e-mail adress to receive a link from which to download the STP file (42Mb). There are [instructions on how to preserve the color](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308), but in my case it worked without issues.
+
 ## Next steps
-- [ ]  get CAD models
-  - [ ] download Fusion 360 files
-  - [ ] check CAD model in CHAMP
-  - [ ] convert STL files (but then I will need also dimensions)
+- [X]  get CAD models
+  - [X] download Fusion 360 files
+  - [ ] ~~check CAD model in CHAMP~~
+  - [ ] ~~convert STL files (but then I will need also dimensions)~~
 - [ ] do some FreeCAD tutorials
 - [ ] draft design for the bull skin
 - [ ] merge bull skin with existing parts
