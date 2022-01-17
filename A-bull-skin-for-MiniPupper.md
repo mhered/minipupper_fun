@@ -57,7 +57,7 @@ Lets sketch away on this drawing of the Mini Pupper:
 
 ## Next steps
 - [X] download Fusion 360 files
-- [ ] do some FreeCAD tutorials
+- [ ] do some FreeCAD tutorials: https://www.youtube.com/watch?v=uh5aN_Di8J0
 - [ ] draft design for the bull skin
 - [ ] merge bull skin with existing parts
 - [ ] preprocess for 3D printing
