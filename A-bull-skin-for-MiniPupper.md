@@ -1,26 +1,24 @@
 # A bull skin for Mini Pupper?
 
+### Why?
+* The original idea came from [this tweet by @nisshan_](https://twitter.com/nisshan_/status/1480923457621983233?s=20): it will be fun to dress up the MiniPupper...
+ <img src="./assets/images/nisshan-tweet.png" alt=" " width="240" /> 
+
+But the shape of MiniPupper reminds me more of a bull, so I decided to make a 3D printed bull skin.
+
 ### Install FreeCAD
+
+I need some CAD software to run in Ubuntu, and it seems that [a good alternative could be FreeCAD](https://itsfoss.com/cad-software-linux/)
 
 ```
 $ sudo apt-get install freecad
 ```
-679Mb download - about 20'
+It's a 679Mb download - about 20'.
 
-Navigation style: Inventor
+Mouse navigation is not immediately obvious. I configured the Navigation style to Inventor (refer to https://wiki.freecad.org/)
 ![Screenshot from 2022-01-17 01-04-39](./assets/images/mouse-freeCAD.png)
-Refer to : https://wiki.freecad.org/
 
-Other alternatives to FreeCAD: https://itsfoss.com/cad-software-linux/
-
-
-**Note: Can visualize but not download [the Fusion360 files of the Mini Pupper]()**
-
-### Inspiration for the bull skin
-* The original idea came from [this tweet by @nisshan_](https://twitter.com/nisshan_/status/1480923457621983233?s=20): it will be fun to dress up the MiniPupper...
-![](./assets/images/nisshan-tweet.png)
-
-But the shape of MiniPupper reminds me more of a bull, so I decided to make a skin.
+**Note: I can visualize but not download [the Fusion360 files of the Mini Pupper](https://a360.co/3fS15a1)**
 
 * Downloaded the STL of a bull: https://www.ameede.net/bull-low-poly-b003554-file-stl-free-download-3d-model-for-cnc-and-3d/, but it is asymmetrical (head, torso turned)
 ![Screenshot from 2022-01-17 01-57-54](./assets/images/STL-bull.png)
