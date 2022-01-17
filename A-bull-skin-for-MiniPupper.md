@@ -50,6 +50,11 @@ The process is simple: click the **Download** button in the top right corner, se
 
 ![](./assets/images/minipupper-in-FreeCAD_xs.png)
 
+## Drafting the bull skin
+
+Lets sketch away on this drawing of the Mini Pupper:
+![](./assets/images/minipupper_dimension_mm.jpg)
+
 ## Next steps
 - [X] download Fusion 360 files
 - [ ] do some FreeCAD tutorials
