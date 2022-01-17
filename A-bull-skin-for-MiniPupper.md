@@ -33,22 +33,22 @@ Inspiration for the robot bull [Behance - Mechanical bull - 3d model](https://ww
 Other ideas:
 
 
-* google search <img src="./assets/images/D3APcfpUgAAhkn3.jpg" alt=" " style="zoom:25%;" />
+* google search <img src="./assets/images/D3APcfpUgAAhkn3.jpg" alt=" " width="120" />
 
-* google search <img src="./assets/images/0f7c763a50cad9706fed969c29846d5e.jpg" alt=" " style="zoom:40%;" />
+* google search <img src="./assets/images/0f7c763a50cad9706fed969c29846d5e.jpg" alt=" " width="120" />
 
 * https://www.artstation.com/artwork/9mmK2v
 
-<img src="./assets/images/john-france-bull.png" style="zoom:25%;" />
+<img src="./assets/images/john-france-bull.png" width="120" />
 
 * https://es.dreamstime.com/vaca-mec%C3%A1nica-del-robot-en-estilo-stiunk-un-fondo-blanco-aislado-ilustraci%C3%B3n-d-image132338671
 
-<img src="./assets/images/vaca-mecánica-del-robot-en-estilo-stiunk-un-fondo-blanco-aislado-ilustración-d-132338671.jpg" style="zoom:25%;" />
+<img src="./assets/images/vaca-mecánica-del-robot-en-estilo-stiunk-un-fondo-blanco-aislado-ilustración-d-132338671.jpg" width="120" />
 
 * https://www.turbosquid.com/3d-models/mechanical-bull-design-3d-model/445960
 
-<img src="./assets/images/taurus.jpg" style="zoom: 50%;" />
+<img src="./assets/images/taurus.jpg" width="120" />
 
 * https://www.pinterest.com/pin/398427898276324254/
 
-<img src="./assets/images/pinterest-bull.png" style="zoom: 67%;" />
+<img src="./assets/images/pinterest-bull.png" alt =" " width="120" />
