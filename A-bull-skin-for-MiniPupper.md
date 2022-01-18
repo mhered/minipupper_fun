@@ -3,7 +3,7 @@
 ## Why?
 The original idea came to me when I saw this tweet by [@nisshan_](https://twitter.com/nisshan_).
 
-[<img src="./assets/images/nisshan-tweet.png" alt=" " width="240" />](https://twitter.com/nisshan_/status/1480923457621983233?s=20)
+[<img src="./assets/images/nisshan-tweet.png" alt=" " width="360" />](https://twitter.com/nisshan_/status/1480923457621983233?s=20)
 
 It would be fun to dress up the MiniPupper!
 
@@ -24,7 +24,8 @@ Mouse navigation is not immediately obvious. I configured the Navigation style t
 ![Screenshot from 2022-01-17 01-04-39](./assets/images/mouse-freeCAD.png)
 
 * Downloaded the STL of a bull: https://www.ameede.net/bull-low-poly-b003554-file-stl-free-download-3d-model-for-cnc-and-3d/, but it is asymmetrical (head, torso turned)
-![Screenshot from 2022-01-17 01-57-54](./assets/images/STL-bull.png)
+
+<img src="./assets/images/STL-bull.png" alt ="STL bull " width="360" />
 
 * Main inspiration for the robot bull [Behance - Mechanical bull - 3d model](https://www.behance.net/gallery/27627969/Mechanical-bull-3d-model)
 ![Screenshot from 2022-01-17 01-08-13](./assets/images/behance-bull.png)
@@ -52,14 +53,23 @@ The process is simple: click the **Download** button in the top right corner, se
 
 ## Drafting the bull skin
 
-Lets sketch away on this drawing of the Mini Pupper:
-![](./assets/images/minipupper_dimension_mm.jpg)
+<img src="./assets/images/minipupper_dimension_mm.jpg" alt =" " width="360" />
+
+After some freehand sketching on the iPad:
+
+|    |    |
+| -- | -- |
+| <img src="./assets/images/Paper_sketches_1.jpg" alt =" " width="360" /> | <img src="./assets/images/Paper_sketches_2.jpg" alt =" " width="360" /> |
+
+I can start tracing on FreeCAD:
+
+<img src="./assets/images/tracing-in-FreeCAD.png" alt =" " width="640" />
 
 ## Next steps
 - [X] download Fusion 360 files
-- [ ] do some FreeCAD tutorials: https://www.youtube.com/watch?v=uh5aN_Di8J0 | https://www.youtube.com/watch?v=6JOITgw_T1Y
-- [ ] draft design for the bull skin
-- [ ] merge bull skin with existing parts
+- [X] do some FreeCAD tutorials: see [FreeCAD-notes.md](./FreeCAD-notes.md). I am quite rusty though!
+- [X] sketch the design for the bull skin
+- [ ] build the 3d model and merge it with existing parts
 - [ ] preprocess for 3D printing
 - [ ] print
 - [ ] test!
