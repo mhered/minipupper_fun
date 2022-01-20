@@ -63,7 +63,9 @@ After some freehand sketching on the iPad:
 
 I can start tracing on FreeCAD:
 
-<img src="./assets/images/tracing-in-FreeCAD.png" alt =" " width="640" />
+|    |    |
+| -- | -- |
+| <img src="./assets/images/01-tracing-in-FreeCAD-18.01.png" alt =" " width="360" /> | <img src="./assets/images/02-bull-status-20.01.png" alt =" " width="360" /> |
 
 ## Next steps
 - [X] download Fusion 360 files
