@@ -145,7 +145,7 @@ Terminal 2:$ roslaunch mini_pupper_config slam.launch rviz:=true
 
 Bam! The Mini Pupper starts mapping the environment:
 
-<img src="./assets/images/Screenshot_2022-01-13_01-37-51.png" alt="Screenshot from 2022-01-13 01-37-51" style="zoom: 50%;" />
+<img src="./assets/images/Screenshot_2022-01-13_01-37-51.png" alt="Screenshot from 2022-01-13 01-37-51" width="480" />
 
 The speed of the robot in this case is very slow.
 
@@ -167,7 +167,7 @@ Terminal 2: $ roslaunch mini_pupper_config navigate.launch rviz:=true
 
 This works beautifully, however a bit too slow.
 
-<img src="./assets/images/Screenshot_2022-01-13_02-05-06.png" alt="Screenshot from 2022-01-13 02-05-06" style="zoom:67%;" />
+<img src="./assets/images/Screenshot_2022-01-13_02-05-06.png" alt="Screenshot from 2022-01-13 02-05-06" width="480" />
 
 ### Conclusion
 
