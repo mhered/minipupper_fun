@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: assets/images
+---
+
 ![freeCAD](./assets/images/freeCAD-tutorials.png)
 
 ### [FreeCAD for Beginners Part 1: Intro](https://www.youtube.com/watch?v=uh5aN_Di8J0)
@@ -98,3 +102,45 @@ Only JPG images can be imported
 $ sudo apt-get install python3-pyqt5 
 ```
 
+### Install FreeCAD 0.19 on Ubuntu
+
+Check the [new features of 0.19 version of FreeCAD ](https://ubunlog.com/en/freecad-0-19-ya-fue-liberado-y-estas-son-sus-novedades/).
+
+Download the AppImage file provided by the developers from the official website (see here [more about AppImage files](https://itsfoss.com/use-appimage-linux/)):
+
+```bash
+$ wget https://github.com/FreeCAD/FreeCAD-AppImage/releases/download/0.19.1/FreeCAD_0.19-24276-Linux-Conda_glibc2.12-x86_64.AppImage -O FreeCAD.AppImage
+```
+
+Make it executable:
+
+```bash
+$ sudo chmod a+x FreeCAD.AppImage
+```
+
+And run it directly from command line:
+
+```bash
+$ ./FreeCAD.AppImage
+```
+
+Note: If you prefer **AppImageLauncher** integrates AppImage files in the GUI.
+
+Installation is as follows:
+
+```bash
+$ sudo add-apt-repository ppa:appimagelauncher-team/stable
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install appimagelauncher
+```
+
+and [usage is described here](https://www.linuxuprising.com/2018/04/easily-run-and-integrate-appimage-files.html).
+
+### [Mug](https://www.youtube.com/watch?v=3zixrxFUCPA)
+
+![Mug tutorial](./assets/images/mug-22.01.22.png)
+
+### [Multi-Part model: small engine](https://www.youtube.com/watch?v=OrFC4ToPhZI)
+
+![Multi-part: small engine](./assets/images/multipart-22.01.22.png)
