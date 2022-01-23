@@ -145,4 +145,4 @@ and [usage is described here](https://www.linuxuprising.com/2018/04/easily-run-a
 
 |    |    | 
 | -- | -- |
-|  < img src="./assets/images/multipart-22.01.22.png" alt="Multi-part: small engine" width="360"/> | < img src="./assets/images/multipart-23.01.22.png" alt="Multi-part: small engine" width="360"/>) | 
+| 22nd January <br/> <img src="./assets/images/multipart-22.01.22.png" alt="multipart-22.01.22" width="480" /> |  23rd January <br/> <img src="./assets/images/multipart-23.01.22.png" alt="multipart-23.01.22" width="480" /> | 
