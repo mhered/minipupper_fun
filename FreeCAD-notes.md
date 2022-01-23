@@ -143,4 +143,6 @@ and [usage is described here](https://www.linuxuprising.com/2018/04/easily-run-a
 
 ### [Multi-Part model: small engine](https://www.youtube.com/watch?v=OrFC4ToPhZI)
 
-![Multi-part: small engine](./assets/images/multipart-22.01.22.png)
+|    |    | 
+| -- | -- |
+|  < img src="./assets/images/multipart-22.01.22.png" alt="Multi-part: small engine" width="360"/> | < img src="./assets/images/multipart-23.01.22.png" alt="Multi-part: small engine" width="360"/>) | 
