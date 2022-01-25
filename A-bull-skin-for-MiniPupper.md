@@ -66,7 +66,7 @@ I can start tracing on FreeCAD:
 |    |    |
 | -- | -- |
 | <img src="./assets/images/01-tracing-in-FreeCAD-18.01.png" alt =" " width="360" /> | <img src="./assets/images/02-bull-status-20.01.png" alt =" " width="360" /> |
-| <img src="./assets/images/03-bull-status-24.01.png" alt =" " width="360" /> | <img src="./assets/images/04-bull-status-XX.01.png" alt =" " width="360" /> |
+| <img src="./assets/images/03-bull-status-24.01.png" alt =" " width="360" /> | <img src="./assets/images/04-bull-status-25.01.png" alt =" " width="360" /> |
 
 ## Next steps
 - [X] download Fusion 360 files
