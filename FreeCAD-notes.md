@@ -1,8 +1,56 @@
 ---
 typora-copy-images-to: assets/images
 ---
-
 ![freeCAD](./assets/images/freeCAD-tutorials.png)
+
+## Installing FreeCAD on Ubuntu 20.04
+
+I need some CAD software to run on Ubuntu, and it seems that [a good alternative could be FreeCAD](https://itsfoss.com/cad-software-linux/). The installation of the stable version (0.18 at the time of writing) in Ubuntu is straightforward: 
+
+```
+$ sudo apt-get install freecad
+```
+It's a 679Mb download though, expect about 20'.
+
+However after playing for a couple of days with this version I realised it is a rather old one. I checked the [new features of 0.19 version of FreeCAD ](https://ubunlog.com/en/freecad-0-19-ya-fue-liberado-y-estas-son-sus-novedades/), and decided to give it a try. 
+
+Installation is also very easy: download the AppImage file provided by the developers from the official website (see here [more about usage of AppImage files](https://itsfoss.com/use-appimage-linux/)):
+
+```bash
+$ wget https://github.com/FreeCAD/FreeCAD-AppImage/releases/download/0.19.1/FreeCAD_0.19-24276-Linux-Conda_glibc2.12-x86_64.AppImage -O FreeCAD.AppImage
+```
+
+Make it executable:
+
+```bash
+$ sudo chmod a+x FreeCAD.AppImage
+```
+
+And run it directly from command line:
+
+```bash
+$ ./FreeCAD.AppImage
+```
+
+I actually downloaded **AppImageLauncher** which is a little that that automatically integrates AppImage files in the GUI. Installation is as follows:
+
+```bash
+$ sudo add-apt-repository ppa:appimagelauncher-team/stable
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install appimagelauncher
+```
+
+... and usage is straightforward,  [see here](https://www.linuxuprising.com/2018/04/easily-run-and-integrate-appimage-files.html).
+
+Note that there are newer versions and even weekly development releases but I didn't feel it was worth the hassle. 
+
+## Getting Started with FreeCAD 
+
+I am not a complete NOOB in CAD, just rusty, but I have to admit I initially found mouse navigation frustratingly counterintuitive in FreeCAD. However there are plenty of configuration options (refer to https://wiki.freecad.org/). After some fiddling I went for the "OpenInventor" Navigation style:
+
+
+![Screenshot from 2022-01-17 01-04-39](FreeCAD-notes.assets/mouse-freeCAD-16431634327241.png)
 
 ### [FreeCAD for Beginners Part 1: Intro](https://www.youtube.com/watch?v=uh5aN_Di8J0)
 
@@ -10,7 +58,7 @@ typora-copy-images-to: assets/images
 
 ​	Preferences -> General -> Units -> Select **Standard(mm/kg/s/degree)**
 
-​	Display -> 3D Navigation -> Select **Openinventor**
+​	Display -> 3D Navigation -> Select **OpenInventor**
 
 2. Workspaces: dropdown menu at the top. Notice how the icons in the top bar change. The most frequently used are Part Design and Sketcher
 
@@ -96,46 +144,11 @@ Note: I lost color changes and transform why?
 
 Only JPG images can be imported
 
-**Resize Image** icon was not showing. Report view showed error`[No module named PytQt5], so [I installed the missing module(https://stackoverflow.com/questions/20672918/importerror-no-module-named-pytqt5) with:
+**Resize Image** icon was not showing. Report view showed error`[No module named PytQt5]`, so [I installed the missing module](https://stackoverflow.com/questions/20672918/importerror-no-module-named-pytqt5) with:
 
 ```bash
 $ sudo apt-get install python3-pyqt5 
 ```
-
-### Install FreeCAD 0.19 on Ubuntu
-
-Check the [new features of 0.19 version of FreeCAD ](https://ubunlog.com/en/freecad-0-19-ya-fue-liberado-y-estas-son-sus-novedades/).
-
-Download the AppImage file provided by the developers from the official website (see here [more about AppImage files](https://itsfoss.com/use-appimage-linux/)):
-
-```bash
-$ wget https://github.com/FreeCAD/FreeCAD-AppImage/releases/download/0.19.1/FreeCAD_0.19-24276-Linux-Conda_glibc2.12-x86_64.AppImage -O FreeCAD.AppImage
-```
-
-Make it executable:
-
-```bash
-$ sudo chmod a+x FreeCAD.AppImage
-```
-
-And run it directly from command line:
-
-```bash
-$ ./FreeCAD.AppImage
-```
-
-Note: If you prefer **AppImageLauncher** integrates AppImage files in the GUI.
-
-Installation is as follows:
-
-```bash
-$ sudo add-apt-repository ppa:appimagelauncher-team/stable
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get install appimagelauncher
-```
-
-and [usage is described here](https://www.linuxuprising.com/2018/04/easily-run-and-integrate-appimage-files.html).
 
 ### [Mug](https://www.youtube.com/watch?v=3zixrxFUCPA)
 
