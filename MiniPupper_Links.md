@@ -3,9 +3,9 @@
 ## Mini Pupper Links
 
 ### UPDATE 27.01 by MANGDANG:
-* For the detailed documents, please refer to https://mangdang-minipupperdocs.readthedocs-hosted.com/...
-* For the source code, please refer to https://github.com/mang.../QuadrupedRobot/tree/MiniPupper_V2
-* Questions / discussion in the Facebook group for backers, https://www.facebook.com/groups/716473723088464
+* For the detailed documents, please refer to https://mangdang-minipupperdocs.readthedocs-hosted.com/... -> nice! new readthedocs
+* For the source code, please refer to https://github.com/mang.../QuadrupedRobot/tree/MiniPupper_V2 -> broken link
+* Questions / discussion in the Facebook group for backers, https://www.facebook.com/groups/716473723088464 -> new group, private...
 
 
 ### Stanford Pupper links (partially applicable)
