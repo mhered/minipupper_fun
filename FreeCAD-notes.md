@@ -1,7 +1,7 @@
 ---
 typora-copy-images-to: assets/images
 ---
-![freeCAD](./assets/images/freeCAD-tutorials.png)
+![freeCAD](./assets/images/freecad/freeCAD-tutorials.png)
 
 ## Installing FreeCAD on Ubuntu 20.04
 
@@ -152,10 +152,10 @@ $ sudo apt-get install python3-pyqt5
 
 ### [Mug](https://www.youtube.com/watch?v=3zixrxFUCPA)
 
-![Mug tutorial](./assets/images/mug-22.01.22.png)
+![Mug tutorial](./assets/images/freecad/mug-22.01.22.png)
 
 ### [Multi-Part model: small engine](https://www.youtube.com/watch?v=OrFC4ToPhZI)
 
-|    |    | 
-| -- | -- |
-| 22nd January <br/> <img src="./assets/images/multipart-22.01.22.png" alt="multipart-22.01.22" width="480" /> |  23rd January <br/> <img src="./assets/images/multipart-23.01.22.png" alt="multipart-23.01.22" width="480" /> | 
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 22nd January <br/> <img src="assets/images/bull/multipart-22.01.22.png" alt="multipart-22.01.22" width="480" /> | 23rd January <br/> <img src="assets/images/bull/multipart-23.01.22.png" alt="multipart-23.01.22" width="480" /> |
