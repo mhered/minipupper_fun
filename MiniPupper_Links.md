@@ -1,4 +1,12 @@
+
+
 ## Mini Pupper Links
+
+### UPDATE 27.01 by MANGDANG:
+* For the detailed documents, please refer to https://mangdang-minipupperdocs.readthedocs-hosted.com/... -> nice! new readthedocs
+* For the source code, please refer to https://github.com/mang.../QuadrupedRobot/tree/MiniPupper_V2 -> broken link
+* Questions / discussion in the Facebook group for backers, https://www.facebook.com/groups/716473723088464 -> new group, private...
+
 
 ### Stanford Pupper links (partially applicable)
 
@@ -6,6 +14,7 @@
 * [This repository hosts the code for Stanford Pupper and Stanford Woofer, Raspberry Pi-based quadruped robots that can trot, walk, and jump. | PythonRepo](https://pythonrepo.com/repo/stanfordroboticsclub-StanfordQuadruped-python-programming-with-hardware)
 * Stanford robotics [github repo]( https://github.com/stanfordroboticsclub/StanfordQuadruped)
 * [Robot operation — Stanford Pupper 2020 documentation](https://pupper.readthedocs.io/en/latest/guide/operation.html#running-the-robot)
+
 
 ### Minipupper docs
 
