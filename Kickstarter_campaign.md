@@ -76,7 +76,7 @@ Exchange rate $0.13USD / HK$ 1
 
 Total approx. $708.35USD = HK$ 5448.85
 
-Expected: 585.20 EUR / Charged to Revolut: 588.72 EUR. Seems OK.
+Expected charges: 585.20 EUR / Actual charges to my bank account: 588.72 EUR. (Seems within the tolerance of currency exchanges).
 
 ### Update #14: goodies
 
@@ -92,5 +92,5 @@ Expected: 585.20 EUR / Charged to Revolut: 588.72 EUR. Seems OK.
 <img src="./assets/images/minipuppers.jpg" style="zoom: 50%;" />
 
 ### Kit received on 2nd February!
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/shPb4SnDpC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#### Mini Pupper Youtube Series - Part 1 - Unboxing
+[![Unboxing video](https://img.youtube.com/vi/shPb4SnDpC4/maxresdefault.jpg)](https://www.youtube.com/watch?v=shPb4SnDpC4)
