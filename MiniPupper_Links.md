@@ -1,6 +1,9 @@
-
-
 ## Mini Pupper Links
+
+### Social
+* [Mini Pupper Facebook group](https://www.facebook.com/groups/519009562699751/): 1300 members
+* [MangDangRobotBackers Facebook group](https://www.facebook.com/groups/716473723088464/): 120 members
+* [MiniPupper adventures Youtube playlist](https://www.youtube.com/playlist?list=PLVni6qNadAQQfQTUqRQIN8222_kW3dqIF)
 
 ### UPDATE 27.01 by MANGDANG:
 * For the detailed documents, please refer to https://mangdang-minipupperdocs.readthedocs-hosted.com/... -> nice! new readthedocs
