@@ -23,6 +23,7 @@
 
 * Fusion 360 CAD model: [MiniPupper from MANGDANG TECHNOLOGY CO., LIMITED - FUSION](https://myhub.autodesk360.com/ue2d9cf55/g/shares/SH9285eQTcf875d3c5392da49ebed9324f4d) 
 * [MiniPupperDocs - Google Drive](https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW)
+
 * [PupperMini.HackerVersion.Assembly.docx - Google Drive](https://drive.google.com/file/d/12Xbnqv3Rm7TEcjBZVSbVkBVNKNO3IOfm/view) 
 * [User Guide for pre-assembled Mini Pupper - YouTube](https://www.youtube.com/watch?v=FRBh3URTuuI)
 * Custom servo spec sheet: https://drive.google.com/file/d/1HXJAASamHH5H4fXvL9rG8V1b8EakX5UQ/view?usp=sharing
