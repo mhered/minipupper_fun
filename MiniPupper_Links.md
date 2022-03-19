@@ -3,7 +3,8 @@
 ### Social
 * [Mini Pupper Facebook group](https://www.facebook.com/groups/519009562699751/): 1300 members
 * [MangDangRobotBackers Facebook group](https://www.facebook.com/groups/716473723088464/): 120 members
-* [MiniPupper adventures Youtube playlist](https://www.youtube.com/playlist?list=PLVni6qNadAQQfQTUqRQIN8222_kW3dqIF)
+* My very own [MiniPupper adventures Youtube playlist](https://www.youtube.com/playlist?list=PLVni6qNadAQQfQTUqRQIN8222_kW3dqIF)
+* The awesome [HomeMadeGarbage's section on Mini Pupper](https://homemadegarbage-com.translate.goog/tag/%e3%83%9f%e3%83%8b%e3%81%b7%e3%81%b1?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp): in japanese, several customizations including walking, self-stabilizing, AI camera and more.
 
 ### UPDATE 27.01 by MANGDANG:
 * For the detailed documents, please refer to https://mangdang-minipupperdocs.readthedocs-hosted.com/... -> nice! new readthedocs
