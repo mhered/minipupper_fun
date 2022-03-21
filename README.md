@@ -8,6 +8,8 @@
 
 * [Designing a 3D-printed Bull Skin for MiniPupper](./A-bull-skin-for-MiniPupper.md)
 
-* [FreeCAD-notes.md ](FreeCAD-notes.md ) 
+* [Notes on FreeCAD](./FreeCAD-notes.md ) 
 
-* [LD06_Links.md](LD06_Links.md)
+* [Collection of LD06 Lidar Links](./LD06_Links.md)
+
+* [Power Up the MiniPupper](./MiniPupper_power_up.md)
