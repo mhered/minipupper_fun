@@ -1,9 +1,18 @@
 ## Mini Pupper Links
 
+### Official documentation supported by MANGDANG (as of 06.05.22)
+* Read the docs: https://minipupperdocs.readthedocs.io/en/latest/index.html
+* Github repo: https://github.com/mang.../QuadrupedRobot/tree/MiniPupper_V2
+* Fusion 360 CAD model: [MiniPupper from MANGDANG TECHNOLOGY CO., LIMITED - FUSION](https://myhub.autodesk360.com/ue2d9cf55/g/shares/SH9285eQTcf875d3c5392da49ebed9324f4d) 
+* [MiniPupperDocs - Google Drive](https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW)
+* Questions / discussion in the Facebook group for backers:
+  * [Mini Pupper Facebook group](https://www.facebook.com/groups/519009562699751/): 1300 members
+  * [MangDangRobotBackers Facebook group](https://www.facebook.com/groups/716473723088464/): 120 members
+  * [MangDang MiniPupper Discord server](https://discord.gg/RHnV5nsbNf)
+
 ### Social
-* [Mini Pupper Facebook group](https://www.facebook.com/groups/519009562699751/): 1300 members
-* [MangDangRobotBackers Facebook group](https://www.facebook.com/groups/716473723088464/): 120 members
 * My very own [MiniPupper adventures Youtube playlist](https://www.youtube.com/playlist?list=PLVni6qNadAQQfQTUqRQIN8222_kW3dqIF)
+* Join the [MiniPupper Discord server](https://discord.gg/RHnV5nsbNf)
 * The awesome [HomeMadeGarbage's section on Mini Pupper](https://homemadegarbage-com.translate.goog/tag/%e3%83%9f%e3%83%8b%e3%81%b7%e3%81%b1?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp): in japanese, several customizations including walking, self-stabilizing, AI camera and more.
 * ThousanDIY MiniPupper assembly instructions:
   * [Original (JAP)](https://note.com/tomorrow56/n/nf83edb723a08)
@@ -11,11 +20,6 @@
   * [ENG partial translation in PDF with figures](./assets/web/MiniPupperThousanDIY_xs.pdf)
   * [ENG full translation in PDF BUT without figures](./assets/web/MiniPupperThousanDIY_xs_full_translation.pdf)
 
-
-### UPDATE 27.01 by MANGDANG:
-* For the detailed documents, please refer to https://mangdang-minipupperdocs.readthedocs-hosted.com/... -> nice! new readthedocs
-* For the source code, please refer to https://github.com/mang.../QuadrupedRobot/tree/MiniPupper_V2 -> broken link
-* Questions / discussion in the Facebook group for backers, https://www.facebook.com/groups/716473723088464 -> new group, private...
 
 
 ### Stanford Pupper links (partially applicable)
