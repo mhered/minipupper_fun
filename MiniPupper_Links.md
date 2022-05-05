@@ -1,33 +1,44 @@
 ## Mini Pupper Links
 
-### Social
+### Official MANGDANG documentation (as of 06.05.22)
+* Documentation: [Read the docs](https://minipupperdocs.readthedocs.io/en/latest/index.html)
+* Docs repo: [MiniPupperDocs - Google Drive](https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW)
+* Source code: [Github repo](https://github.com/mang.../QuadrupedRobot/tree/MiniPupper_V2)
+* CAD model: [MiniPupper Fusion 360 CAD model](https://myhub.autodesk360.com/ue2d9cf55/g/shares/SH9285eQTcf875d3c5392da49ebed9324f4d)
+* Questions / discussion in the Facebook group for backers:
+  * [Mini Pupper Facebook group](https://www.facebook.com/groups/519009562699751/): 1300 members
+  * [MangDangRobotBackers Facebook group](https://www.facebook.com/groups/716473723088464/): 120 members
+  * [MangDang MiniPupper Discord server]()
 
-* [memoteki blog by Daisuke Sato (tiryoh): Assembly](https://memoteki-net.translate.goog/archives/4673?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp ) (JAP translated) including e.g. modification of servoconnector #1 to avoid clash  
-* [memoteki blog by Daisuke Sato (tiryoh): Software](https://memoteki-net.translate.goog/archives/4772?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (JAP trasnlated) incljuding sfw, calibration, discussion onbluetooth, HDMI etc
+### Community contributions
 
-* [trajectory optimization for minipupper python repo by sotaro katayama](https://pythonrepo.com/repo/mayataka-mini_pupper_trajopt-python-programming-with-hardware#issues)
-  * [pinocchio github repo](https://github.com/stack-of-tasks/pinocchio/blob/master/README.md)
-  * [github repo](https://github.com/mayataka/mini_pupper_trajopt)
+* Join the [MiniPupper Discord server](https://discord.gg/RHnV5nsbNf)
 
-* [CHAMPquadruped devp framework github repo by Juan Miguel Gimeno (glassjelly)](https://github.com/chvmp)
-* Discord MiniPupper
-* Discord MiniPupper@Mangdang
-* [Video of MiniPupper v1 (Kickstarter edition) SLAM by Daisuke Sato (tiryoh) ](https://www.youtube.com/watch?v=kyfAP2T9b2M)
-* [Mini Pupper Facebook group](https://www.facebook.com/groups/519009562699751/): 1300 members
-* [MangDangRobotBackers Facebook group](https://www.facebook.com/groups/716473723088464/): 120 members
 * My very own [MiniPupper adventures Youtube playlist](https://www.youtube.com/playlist?list=PLVni6qNadAQQfQTUqRQIN8222_kW3dqIF)
+
 * The awesome [HomeMadeGarbage's section on Mini Pupper](https://homemadegarbage-com.translate.goog/tag/%e3%83%9f%e3%83%8b%e3%81%b7%e3%81%b1?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp): in japanese, several customizations including walking, self-stabilizing, AI camera and more.
+
 * ThousanDIY MiniPupper assembly instructions:
   * [Original (JAP)](https://note.com/tomorrow56/n/nf83edb723a08)
   * [ENG translation - but reverts automatically to original (??)](https://note-com.translate.goog/tomorrow56/n/nf83edb723a08?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=es)
   * [ENG partial translation in PDF with figures](./assets/web/MiniPupperThousanDIY_xs.pdf)
   * [ENG full translation in PDF BUT without figures](./assets/web/MiniPupperThousanDIY_xs_full_translation.pdf)
 
+* [memoteki blog by Daisuke Sato (tiryoh): Assembly](https://memoteki-net.translate.goog/archives/4673?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp ) (JAP translated) including e.g. modification of servoconnector #1 to avoid clash  
 
-### UPDATE 27.01 by MANGDANG:
-* For the detailed documents, please refer to https://mangdang-minipupperdocs.readthedocs-hosted.com/... -> nice! new readthedocs
-* For the source code, please refer to https://github.com/mang.../QuadrupedRobot/tree/MiniPupper_V2 -> broken link
-* Questions / discussion in the Facebook group for backers, https://www.facebook.com/groups/716473723088464 -> new group, private...
+* [memoteki blog by Daisuke Sato (tiryoh): Software](https://memoteki-net.translate.goog/archives/4772?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (JAP translated) including sfw, calibration, discussion onbluetooth, HDMI etc
+
+* [Video of MiniPupper v1 (Kickstarter edition) SLAM ](https://www.youtube.com/watch?v=kyfAP2T9b2M) by Daisuke Sato (tiryoh)
+
+* [Trajectory optimization package for MiniPupper robot ](https://pythonrepo.com/repo/mayataka-mini_pupper_trajopt-python-programming-with-hardware) python repo by sotaro katayama
+  * [pinocchio github repo](https://github.com/stack-of-tasks/pinocchio/blob/master/README.md)
+  * [github repo](https://github.com/mayataka/mini_pupper_trajopt)
+
+* [CHAMP quadruped devp framework](https://github.com/chvmp) github repo by Juan Miguel Gimeno (glassjelly)
+  * [chvmp/robots: Collection of quadrupedal robots configured to work in CHAMP development framework](https://github.com/chvmp/robots)
+* [Trajectory optimization package for Mini-Pupper robot | PythonRepo](https://pythonrepo.com/repo/mayataka-mini_pupper_trajopt-python-programming-with-hardware)
+
+
 
 
 ### Stanford Pupper links (partially applicable)
@@ -38,21 +49,16 @@
 * [Robot operation — Stanford Pupper 2020 documentation](https://pupper.readthedocs.io/en/latest/guide/operation.html#running-the-robot)
 
 
-### Minipupper docs
-
-* Fusion 360 CAD model: [MiniPupper from MANGDANG TECHNOLOGY CO., LIMITED - FUSION](https://myhub.autodesk360.com/ue2d9cf55/g/shares/SH9285eQTcf875d3c5392da49ebed9324f4d) 
-* [MiniPupperDocs - Google Drive](https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW)
-
-* [PupperMini.HackerVersion.Assembly.docx - Google Drive](https://drive.google.com/file/d/12Xbnqv3Rm7TEcjBZVSbVkBVNKNO3IOfm/view) 
+### Older MiniPupper docs
+* [PupperMini.HackerVersion.Assembly.docx - Google Drive](https://drive.google.com/file/d/12Xbnqv3Rm7TEcjBZVSbVkBVNKNO3IOfm/view)
 * [User Guide for pre-assembled Mini Pupper - YouTube](https://www.youtube.com/watch?v=FRBh3URTuuI)
 * Custom servo spec sheet: https://drive.google.com/file/d/1HXJAASamHH5H4fXvL9rG8V1b8EakX5UQ/view?usp=sharing
 
-### Minipupper sfw
+### Older MiniPupper sfw
 
 * [Mini Pupper - Open-Source,ROS Robot Dog Kit | PythonRepo](https://pythonrepo.com/repo/mangdangroboticsclub-QuadrupedRobot-python-programming-with-hardware#releases)
 * [minipupper_ros_bsp/mangdang at MiniPupper_V2 · mangdangroboticsclub/minipupper_ros_bsp](https://github.com/mangdangroboticsclub/minipupper_ros_bsp/tree/MiniPupper_V2/mangdang)
-* [chvmp/robots: Collection of quadrupedal robots configured to work in CHAMP development framework](https://github.com/chvmp/robots) 
-* [Trajectory optimization package for Mini-Pupper robot | PythonRepo](https://pythonrepo.com/repo/mayataka-mini_pupper_trajopt-python-programming-with-hardware)
+
 * [QuadrupedRobot/StanfordQuadruped/src at MiniPupper_V1 · mangdangroboticsclub/QuadrupedRobot](https://github.com/mangdangroboticsclub/QuadrupedRobot/tree/MiniPupper_V1/StanfordQuadruped/src)
 
 ### First reviews
