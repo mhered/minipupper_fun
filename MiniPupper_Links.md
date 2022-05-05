@@ -1,6 +1,18 @@
 ## Mini Pupper Links
 
 ### Social
+
+* [memoteki blog by Daisuke Sato (tiryoh): Assembly](https://memoteki-net.translate.goog/archives/4673?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp ) (JAP translated) including e.g. modification of servoconnector #1 to avoid clash  
+* [memoteki blog by Daisuke Sato (tiryoh): Software](https://memoteki-net.translate.goog/archives/4772?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (JAP trasnlated) incljuding sfw, calibration, discussion onbluetooth, HDMI etc
+
+* [trajectory optimization for minipupper python repo by sotaro katayama](https://pythonrepo.com/repo/mayataka-mini_pupper_trajopt-python-programming-with-hardware#issues)
+  * [pinocchio github repo](https://github.com/stack-of-tasks/pinocchio/blob/master/README.md)
+  * [github repo](https://github.com/mayataka/mini_pupper_trajopt)
+
+* [CHAMPquadruped devp framework github repo by Juan Miguel Gimeno (glassjelly)](https://github.com/chvmp)
+* Discord MiniPupper
+* Discord MiniPupper@Mangdang
+* [Video of MiniPupper v1 (Kickstarter edition) SLAM by Daisuke Sato (tiryoh) ](https://www.youtube.com/watch?v=kyfAP2T9b2M)
 * [Mini Pupper Facebook group](https://www.facebook.com/groups/519009562699751/): 1300 members
 * [MangDangRobotBackers Facebook group](https://www.facebook.com/groups/716473723088464/): 120 members
 * My very own [MiniPupper adventures Youtube playlist](https://www.youtube.com/playlist?list=PLVni6qNadAQQfQTUqRQIN8222_kW3dqIF)

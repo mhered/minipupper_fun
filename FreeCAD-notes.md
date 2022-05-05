@@ -159,3 +159,11 @@ $ sudo apt-get install python3-pyqt5
 |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 22nd January <br/> <img src="assets/images/bull/multipart-22.01.22.png" alt="multipart-22.01.22" width="480" /> | 23rd January <br/> <img src="assets/images/bull/multipart-23.01.22.png" alt="multipart-23.01.22" width="480" /> |
+
+## Other tutorials
+
+* Obijuan Academy: http://www.iearobotics.com/wiki/index.php?title=Obijuan_Academy includes Freecad, Openscad, electronics and 3D printing. In Spanish. 2014.
+* FreeCAD beginner series by Adventures in creation: https://www.youtube.com/c/Adventuresincreation/playlists. 33 videos 2021-22
+* FreeCAD for Beginners series by thehardwareguy: https://www.youtube.com/c/thehardwareguy/playlists 11 videos until april 2021
+* MangoJellySolutions: many playlists https://www.youtube.com/c/MangoJellySolutions/playlists
+
