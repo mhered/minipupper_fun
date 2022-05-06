@@ -13,3 +13,5 @@
 * [Collection of LD06 Lidar Links](./LD06_Links.md)
 
 * [Power Up the MiniPupper](./MiniPupper_power_up.md)
+
+* [MiniPupper SLAM Navigation](./MiniPupper_SLAM_Navigation.md)
