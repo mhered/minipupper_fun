@@ -1,17 +1,29 @@
 ## Mini Pupper Links
 
+
+
 ### Official MANGDANG documentation (as of 06.05.22)
+
 * Documentation: [Read the docs](https://minipupperdocs.readthedocs.io/en/latest/index.html)
 * [User Guide for pre-assembled Mini Pupper - YouTube](https://www.youtube.com/watch?v=FRBh3URTuuI)
 * Docs repo: [MiniPupperDocs - Google Drive](https://drive.google.com/drive/folders/17XOR7FHEMkts_zZtZtuQ-QxEJ68U8ZkW)
   * Custom servo spec sheet: https://drive.google.com/file/d/1HXJAASamHH5H4fXvL9rG8V1b8EakX5UQ/view?usp=sharing
 
-* Source code: [Github repo](https://github.com/mangdangroboticsclub/QuadrupedRobot)
+* Source code: 
+  * [main Github repo](https://github.com/mangdangroboticsclub/QuadrupedRobot) (my board is V2)
+  * [Mini Pupper - Open-Source,ROS Robot Dog Kit | PythonRepo](https://pythonrepo.com/repo/mangdangroboticsclub-QuadrupedRobot-python-programming-with-hardware#releases)
+  * [minipupper_ros_bsp/mangdang at MiniPupper_V2 · mangdangroboticsclub/minipupper_ros_bsp](https://github.com/mangdangroboticsclub/minipupper_ros_bsp/tree/MiniPupper_V2/mangdang) - BSP means Board Support Package, see [Wikipedia page](https://en.wikipedia.org/wiki/Board_support_package)
+
+  * [QuadrupedRobot/StanfordQuadruped/src at MiniPupper_V1 · mangdangroboticsclub/QuadrupedRobot](https://github.com/mangdangroboticsclub/QuadrupedRobot/tree/MiniPupper_V1/StanfordQuadruped/src)
+
 * CAD model: [MiniPupper Fusion 360 CAD model](https://myhub.autodesk360.com/ue2d9cf55/g/shares/SH9285eQTcf875d3c5392da49ebed9324f4d)
+* Twitter: [MangDang (@LeggedRobot) / Twitter](https://twitter.com/LeggedRobot)
 * Questions / discussion:
   * [Mini Pupper Facebook group](https://www.facebook.com/groups/519009562699751/): 1300 members
   * [MangDangRobotBackers Facebook group](https://www.facebook.com/groups/716473723088464/): 150 members
   * [MiniPupper@MangDang Discord server](https://discord.com/invite/xsMjEudK?fbclid=IwAR04CWquqMPCyH3n-hkC-oO9G_Fu_yfHCP6fKBTWdXpcK8Q3ou1n__xObdk) -> dead link. 47 members
+
+
 
 ### Community contributions
 
@@ -21,7 +33,10 @@
 
 * [Jorge Parra (jeparra) instructions to remotely control the pupper](./assets/sfw/Instructions_simple_command_pupper.txt)
 
+* [minipupper_base](https://github.com/hdumcke/minipupper_base) and [minipupper_ros2](https://github.com/hdumcke/minipupper_ros2) github repos by Horst Duemcke (hdumcke) - an attempt to put order in the Mangdang source and to develop ROS2 support. Sorts out joystick issues
+
 * Not to be missed tutorials by Qiita:
+
   *  [Making minipupper walk 1](https://qiita.com/nisshan_/items/5f1a0953e9fd4afba5b5) - detailed assembly instructions in Japanese/English
 
   * [Making minipupper walk 2](https://qiita-com.translate.goog/nisshan_/items/fa4a4ab807c5e4bb1ff4?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=es) - simulation of MiniPupper using Champ/Gazebo. Google translate of the original japanese blog post. Inspiration for my article
@@ -40,13 +55,24 @@
 
 * [Video of MiniPupper v1 (Kickstarter edition) SLAM ](https://www.youtube.com/watch?v=kyfAP2T9b2M) by Daisuke Sato (tiryoh)
 
-* [Trajectory optimization package for MiniPupper robot ](https://pythonrepo.com/repo/mayataka-mini_pupper_trajopt-python-programming-with-hardware) python repo by sotaro katayama
+* [Trajectory optimization package for MiniPupper robot | PythonRepo](https://pythonrepo.com/repo/mayataka-mini_pupper_trajopt-python-programming-with-hardware) python repo by sotaro katayama (mayataka)
+
   * [pinocchio github repo](https://github.com/stack-of-tasks/pinocchio/blob/master/README.md)
   * [github repo](https://github.com/mayataka/mini_pupper_trajopt)
 
 * [CHAMP quadruped devp framework](https://github.com/chvmp) github repo by Juan Miguel Gimeno (glassjelly)
+
   * [chvmp/robots: Collection of quadrupedal robots configured to work in CHAMP development framework](https://github.com/chvmp/robots)
-* [Trajectory optimization package for Mini-Pupper robot | PythonRepo](https://pythonrepo.com/repo/mayataka-mini_pupper_trajopt-python-programming-with-hardware)
+
+* First reviews:
+
+  * [Mini Pupper: Open-Source,ROS Robot Dog Kit by MangDang » FAQ — Kickstarter](https://www.kickstarter.com/projects/336477435/mini-pupper-open-sourceros-robot-dog-kit/faqs)
+
+  * [I played with the robot dog "Mini Pupper" that can learn programming! --CHASUKE.com](https://chasuke-com.translate.goog/minipupper/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=es)
+
+  * ["Mini Pupper" promises "outstanding" functionality, but at a price - General Discussions - Dexter Industries Forum](https://forum.dexterindustries.com/t/mini-pupper-promises-outstanding-functionality-but-at-a-price/8519)
+
+    
 
 
 ### Stanford Pupper links (partially applicable)
@@ -55,19 +81,3 @@
 * [This repository hosts the code for Stanford Pupper and Stanford Woofer, Raspberry Pi-based quadruped robots that can trot, walk, and jump. | PythonRepo](https://pythonrepo.com/repo/stanfordroboticsclub-StanfordQuadruped-python-programming-with-hardware)
 * Stanford robotics [github repo]( https://github.com/stanfordroboticsclub/StanfordQuadruped)
 * [Robot operation — Stanford Pupper 2020 documentation](https://pupper.readthedocs.io/en/latest/guide/operation.html#running-the-robot)
-
-### Older MiniPupper sfw
-
-* [Mini Pupper - Open-Source,ROS Robot Dog Kit | PythonRepo](https://pythonrepo.com/repo/mangdangroboticsclub-QuadrupedRobot-python-programming-with-hardware#releases)
-* [minipupper_ros_bsp/mangdang at MiniPupper_V2 · mangdangroboticsclub/minipupper_ros_bsp](https://github.com/mangdangroboticsclub/minipupper_ros_bsp/tree/MiniPupper_V2/mangdang)
-
-* [QuadrupedRobot/StanfordQuadruped/src at MiniPupper_V1 · mangdangroboticsclub/QuadrupedRobot](https://github.com/mangdangroboticsclub/QuadrupedRobot/tree/MiniPupper_V1/StanfordQuadruped/src)
-
-### First reviews
-
-* [Mini Pupper: Open-Source,ROS Robot Dog Kit by MangDang » FAQ — Kickstarter](https://www.kickstarter.com/projects/336477435/mini-pupper-open-sourceros-robot-dog-kit/faqs)
-* [I played with the robot dog "Mini Pupper" that can learn programming! --CHASUKE.com](https://chasuke-com.translate.goog/minipupper/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=es)
-* [MangDang (@LeggedRobot) / Twitter](https://twitter.com/LeggedRobot)
-* [(20+) Mini Pupper | Facebook](https://www.facebook.com/groups/519009562699751)
-* ["Mini Pupper" promises "outstanding" functionality, but at a price - General Discussions - Dexter Industries Forum](https://forum.dexterindustries.com/t/mini-pupper-promises-outstanding-functionality-but-at-a-price/8519)
-
