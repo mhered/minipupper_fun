@@ -15,7 +15,14 @@ $ git clone  https://github.com/ldrobotSensorTeam/ldlidar_stl_ros.git
 
 2. Connect to USB through the control board provided
 
-3. Identify the serial port device mounted by the radar in the system (using e.g. `$ ls -l /dev` ) and give it writing permission, e.g.:
+3. Identify the serial port device mounted by the radar in the system. Original instructions suggested using `$ ls -l /dev` but this yields a very long list where I wasn't able to see anything. I found [here](https://askubuntu.com/questions/398941/find-which-tty-device-connected-over-usb) a better way. Plug the USB then issue:
+```bash
+$ dmesg|grep tty
+[317997.130732] usb 2-2: cp210x converter now attached to ttyUSB0
+```
+
+This will output the tty devices detected by kernel, in the order that they were detected and with a time stamp. We are looking for the **cp210x converter**. Then give it writing permission:
+
 ```
 $ sudo chmod 777 /dev/ttyUSB0
 ```
@@ -70,7 +77,7 @@ I do not understand the instructions for testing, get an error message.
 - [ ] Ask about test
 - [ ] compare with ROS notes, investigate a bit nodes and topics etc
 - [ ] Take screenshots
-- [ ] How to identify the serial port device mounted by the radar in the system?
+- [x] How to identify the serial port device mounted by the radar in the system?
 
 ## 07.05 Install LiDAR
 
