@@ -1,16 +1,19 @@
-## Start raspberry pi
+## Power-up MiniPupper
 
 - Connect the Raspberry pi to the display with a microHDMI cable.
-- Connect a USB keyboard and mouse to the Raspberry pi. 
-- Press and hold the button on the bottom of the Mini Pupper to  start Raspberry pi for three seconds. 
-- If you can see Ubuntu running on your screen, you have succeeded. You should also see the face on Mini Pupper display. If you don’t see  both screen, then you have followed the instructions incorrectly.
+- Connect a keyboard and mouse to the Raspberry Pi USB ports. 
+- Press and hold 3 seconds the button on the bottom of the Mini Pupper to power-up. 
+- You will see the boot-up sequence of Ubuntu in the screen. On MiniPupper, wait to hear a starting sound, then the LCD display will show a pair of yellow eyes.
 
-## Log in
+## Log in and change password
+
+By default autologin should be enabled. If that is not the case: 
 
 - Press ubuntu on the purple screen to log in.
 - Default username : `ubuntu`
 - Default password : `mangdang`
-- You should change your password.  Open a terminal with `Ctrl + Alt + t` and type:
+
+You should change your password.  Open a terminal with `Ctrl + Alt + t` and type:
 
 ```bash
 (robot): $ sudo passwd ubuntu
@@ -33,7 +36,7 @@ Raspberry Pi comes out of the box with Wifi disabled by default. We need to edit
   # dtoverlay=disable-wifi
 ```
 - Reboot Ubuntu for changes to take effect.
-- When you start up again, open settings and set up your wifi settings. Choose your wifi access point SSID and enter your password.
+- When you start up again, open Settings and set up your wifi settings. Choose your wifi access point SSID and enter your password.
 - Type `ip a`. Take note of IP address. This will be necessary when you connect to your PC via ssh. The configuration within Ubuntu is now complete.
 
 ## Wifi problems

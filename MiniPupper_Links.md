@@ -35,6 +35,8 @@
 
 * [minipupper_base](https://github.com/hdumcke/minipupper_base) and [minipupper_ros2](https://github.com/hdumcke/minipupper_ros2) github repos by Horst Duemcke (hdumcke) - an attempt to put order in the Mangdang source and to develop ROS2 support. Sorts out joystick issues
 
+  * [minipupper_kinematics](https://github.com/hdumcke/minipupper_kinematics) also by hdumcke contain jupyter notebooks to define a foot trajectory and then use inverse kinematics to calculate the servo angles. Includes also a simulation environment and an execution environment to try it out for real 
+
 * Not to be missed tutorials by Qiita:
 
   *  [Making minipupper walk 1](https://qiita.com/nisshan_/items/5f1a0953e9fd4afba5b5) - detailed assembly instructions in Japanese/English
