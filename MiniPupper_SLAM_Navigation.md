@@ -1,8 +1,8 @@
 # MiniPupper SLAM Navigation
 
-## Testing the LD06 on the laptop
+## (05.05)Testing the LD06 on the laptop
 
-05.05 followed instructions in the [LD06 Readme](https://github.com/ldrobotSensorTeam/ldlidar_stl_ros) to setup and test LiDAR on the laptop. This is not necessary but I wanted to make sure LD06 was working standalone in a simple way.
+Followed instructions in the [LD06 Readme](https://github.com/ldrobotSensorTeam/ldlidar_stl_ros) to setup and test LiDAR on the laptop. This is not necessary but I wanted to make sure LD06 was working standalone in a simple way.
 
 1. Clone the repo (**Note: in hindsight it would've been better to create `ldlidar_ros_ws` under `catkin_ws` but never mind**):
 
@@ -79,28 +79,33 @@ I do not understand the instructions for testing, get an error message.
 - [ ] Take screenshots
 - [x] How to identify the serial port device mounted by the radar in the system?
 
-## 07.05 Install LiDAR
+## (07.05) Mechanical installation of the LiDAR
 
 The installation instructions for the LiDAR are somewhat lacking detail:
 
 1. Which length screws should we use to fix the 3D-printed stand of the LiDAR to the robot frame? 
    - Do we need to replace the two screws at the rear with longer ones? (I used the same ones and it seems fine). 
    - Which length screw to use for the third hole at the front? Does the front screw require a locknut? (I used a M2x10mm + locknut. Access to install the locknut is not obvious, but I came up with a trick to hold the nut using the wrench provided and cello tape).  
+   
 2. Attaching the LiDAR to the 3D printed part is also not easy:
-   - The fwd arrow embossed at the top of the LiDAR module is actually pointing left, is that normal? 
+   - The fwd arrow embossed at the top of the LiDAR module is actually pointing left, but this is incorrect, cfr. [this specs document](https://www.ldrobot.com/editor/file/20210422/1619071548499386.pdf)) or e.g. this [CAD for an RPi stand](https://grabcad.com/library/ldrobot-ld06-360-lidar-module-raspberry-pi-mounting-bracket-1)
+   
+     <img src="assets/images/LD06-specs.png" style="zoom:80%;" />
+   
    - Also both the turrets in the 3D printed part broke on me when I was trying to install the self-tapping screws. I will need to print a replacement part, maybe using a different material.
+   
 3. The USB to microUSB cable is too long and rigid. I ordered a shorter flat cable from AliExpress: https://es.aliexpress.com/item/1005003635006049.html S1W1A 10cm 
+
 4. There is no space to store the control board for the LD06. Maybe I will design a 3D-printed clip. (edited)
 
 ### To do
 
-- [ ] Order replacement 3D-printed part for LD06 stand
-- [ ] Design and send to print a 3D printed clip to hold the board
 - [x] Order flat USB-microUSB cable AliExpress (21 Jun!)
-- [ ] Bring flat cable from Don Juan
+- [ ] track AliExpress
+- [x] Bring flat cable from Don Juan
 - [x] Install sfw PC side
 
-## 08.05 PC setup
+## (08.05) PC setup
 
 Followed the instructions here: https://github.com/mangdangroboticsclub/minipupper_ros
 
@@ -183,7 +188,7 @@ source ~/catkin_ws/devel/setup.bash
 source ~/catkin_ws/carto_ws/install_isolated/setup.bash
 ```
 
-## 09.05 MiniPupper setup
+## (09.05) MiniPupper setup
 
 According to this: https://minipupperdocs.readthedocs.io/en/latest/guide/SLAM.html#for-the-new-version-please-refer-to-ros-page-and-use-this-ros-image the base image from 2022.02.19 is valid to install on top of it MiniPupper ROS packages etc. Lets try.
 
@@ -196,13 +201,15 @@ The repo for the BSP (board support package) for MiniPupper ROS is [here](https:
 Installation instructions are in the [ReadMe.txt]() but have typos, should be:
 
 ```bash
-$ cd home/ubuntu
+$ cd ~
 $ git clone https://github.com/mangdangroboticsclub/minipupper_ros_bsp.git
 $ cd minipupper_ros_bsp/mangdang
 $ sudo sh Legacy/pre_install.sh
 $ sudo sh install.sh
 $ reboot
 ```
+
+(Done OK 09.05)
 
 Note: check also the cleaned-up repo by `hdumcke`
 
@@ -218,6 +225,18 @@ $ sudo udevadm control --reload-rules
 $ sudo udevadm trigger
 $ sudo reboot
 ```
+
+(Tried on 09.5 but did not work. Cannot find `ros-noetic-joy` package. Seems ROS not installed)
+
+09.05 Tried unsuccessfully to install ROS noetic on Raspberry from various sources:
+
+* https://www.hackster.io/shahizat005/lidar-integration-with-ros-noetic-and-ubuntu-on-raspberry-pi-6ac3f7 broken install
+
+* http://wiki.ros.org/noetic/Installation/Ubuntu broken install
+
+**Note: Starting to doubt which MiniPupper image I actually installed. I think I actually had the base image and the MiniPupper video is incorrect (shows the ROS image)**
+
+---
 
 Then go into pairing mode with PS4: Playstation button + share button for ~5 sec. The issue the following command at terminal until PS4 Joystick is connected.
 
@@ -272,8 +291,32 @@ source ~/catkin_ws/devel/setup.bash
 
 ### To do
 
-- [ ] connect MiniPupper to screen, keyboard & mouse
-- [ ] recalibrate: yesterday I corrected the length of the adjustable rods. Need to rerun calibration!
+- [x] connect MiniPupper to screen, keyboard & mouse
+- [x] recalibrate: yesterday I corrected the length of the adjustable rods. Need to rerun calibration!
 - [ ] actually perform the MiniPupper setup steps (see above)
 
 - [ ] Run SLAM
+
+## (09.05) Improved LD06 base
+
+**Idea: integrate the clip on the stand, so rotate then add support for the board.**
+
+Downloaded [LD06_base.STL](./assets/CAD/LD06_base.STL) from [MiniPupper repo](https://drive.google.com/drive/folders/1qY0D0EFMEq7hCxesOtWjdjGncZ6CRQnF?usp=sharing)
+
+Folllowed [this tutorial to import the STL into FreeCAD](https://www.youtube.com/watch?v=dr1qtaURrvI). Note the tutorial is for 0.18 and in 0.19 there is a little update: Refine Shape is found under Part → Create a copy → Refine Shape  
+
+"As of v0.19 and above the result defaults to a parametric (linked) copy. " so one can do 
+
+* Part > Create a copy > Simple copy again, or 
+
+* change preferences > This behavior can be changed in the Std DlgParameter.svg Parameter editor: >    Go to the subgroup: BaseApp/Preferences/Mod/Part >    Change ParametricRefine of type Boolean to false to get the old behavior (independent copy). cfr. https://wiki.freecadweb.org/Part_RefineShape
+
+<img src="assets/images/lidar/LD06_base_STL-imported.png" alt="LD06_base_STL-imported" style="zoom:80%;" />
+
+### To do 
+
+- [ ] Design a 3D printed clip to hold the board, maybe integrated in the LD06 stand?
+  - [ ] make symmetry of turrets
+  - [ ] make hole to make lighter
+  - [ ] add holder for board at the front
+- [ ] Order replacement 3D-printed part for LD06 stand
