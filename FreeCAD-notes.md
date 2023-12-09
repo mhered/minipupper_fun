@@ -49,8 +49,7 @@ Note that there are newer versions and even weekly development releases but I di
 
 I am not a complete NOOB in CAD, just rusty, but I have to admit I initially found mouse navigation frustratingly counterintuitive in FreeCAD. However there are plenty of configuration options (refer to https://wiki.freecad.org/). After some fiddling I went for the "OpenInventor" Navigation style:
 
-
-![Screenshot from 2022-01-17 01-04-39](FreeCAD-notes.assets/mouse-freeCAD-16431634327241.png)
+![](./assets/images/mouse-freeCAD.png)
 
 ### [FreeCAD for Beginners Part 1: Intro](https://www.youtube.com/watch?v=uh5aN_Di8J0)
 
